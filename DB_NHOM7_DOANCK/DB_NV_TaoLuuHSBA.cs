@@ -12,7 +12,7 @@ namespace DB_NHOM7_DOANCK
         public static int TaoLuuHSBA(string ID, int CusID, string Address)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
             connecttion.Open();

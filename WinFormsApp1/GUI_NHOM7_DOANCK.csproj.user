@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="GUI_CacDotThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="GUI_ChungNhanTiemChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_DKTiemChung.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_KH_DSChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_HinhThucThanhToan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_NV_DSChucNang.cs">
@@ -23,6 +32,15 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_NV_TraCuuHSBA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_PhuongThucThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_ThanhToanChuyenKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_ThanhToanTienMat.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_XemPDKTC.cs">

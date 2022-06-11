@@ -12,7 +12,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadDSCN()
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
