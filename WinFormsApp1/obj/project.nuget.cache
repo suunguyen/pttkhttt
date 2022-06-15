@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NziZMNTEOWkeG1/iVgZ3KQt+TQsTpZk6vJ5XAefKeC0nOzNpSaRMO5Xd470WmDoGdXgmklP/NRU8Lv1cJ5Vv5g==",
+  "dgSpecHash": "ketiJC5eouJY4AzWTWqfLXfTILqLTjP8/Dx5rPNKb8uXA/60yabAQE2zAH2fn/nj8MdF2VhDBqjzS2thXauEvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+  "projectFilePath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suu.nguyen\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\suu.nguyen\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -30,11 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tb_username = new System.Windows.Forms.TextBox();
+            this.btn_login = new System.Windows.Forms.Button();
             this.tb_password = new System.Windows.Forms.TextBox();
-            this.btn_Login = new System.Windows.Forms.Button();
+            this.tb_username = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btn_Login);
+            this.groupBox1.Controls.Add(this.btn_login);
             this.groupBox1.Controls.Add(this.tb_password);
             this.groupBox1.Controls.Add(this.tb_username);
             this.groupBox1.Controls.Add(this.label3);
@@ -62,15 +62,30 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin đăng nhập";
             // 
-            // label2
+            // btn_login
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(37, 53);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 21);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Tên đăng nhập";
+            this.btn_login.Location = new System.Drawing.Point(134, 145);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(152, 37);
+            this.btn_login.TabIndex = 4;
+            this.btn_login.Text = "Đăng nhập";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            // 
+            // tb_password
+            // 
+            this.tb_password.Location = new System.Drawing.Point(168, 102);
+            this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
+            this.tb_password.Size = new System.Drawing.Size(185, 23);
+            this.tb_password.TabIndex = 3;
+            // 
+            // tb_username
+            // 
+            this.tb_username.Location = new System.Drawing.Point(168, 55);
+            this.tb_username.Name = "tb_username";
+            this.tb_username.Size = new System.Drawing.Size(185, 23);
+            this.tb_username.TabIndex = 2;
             // 
             // label3
             // 
@@ -82,29 +97,15 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Mật khẩu";
             // 
-            // tb_username
+            // label2
             // 
-            this.tb_username.Location = new System.Drawing.Point(168, 55);
-            this.tb_username.Name = "tb_username";
-            this.tb_username.Size = new System.Drawing.Size(185, 23);
-            this.tb_username.TabIndex = 2;
-            // 
-            // tb_password
-            // 
-            this.tb_password.Location = new System.Drawing.Point(168, 102);
-            this.tb_password.Name = "tb_password";
-            this.tb_password.PasswordChar = '*';
-            this.tb_password.Size = new System.Drawing.Size(185, 23);
-            this.tb_password.TabIndex = 3;
-            // 
-            // btn_Login
-            // 
-            this.btn_Login.Location = new System.Drawing.Point(134, 145);
-            this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(152, 37);
-            this.btn_Login.TabIndex = 4;
-            this.btn_Login.Text = "Đăng nhập";
-            this.btn_Login.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(37, 53);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Tên đăng nhập";
             // 
             // GUI_DangNhap
             // 
@@ -126,7 +127,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.TextBox tb_username;
         private System.Windows.Forms.Label label3;

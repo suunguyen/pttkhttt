@@ -16,5 +16,10 @@ namespace GUI_NHOM7_DOANCK
         {
             InitializeComponent();
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

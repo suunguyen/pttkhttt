@@ -497,11 +497,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "projectUniqueName": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
       "projectName": "GUI_NHOM7_DOANCK",
-      "projectPath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "projectPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
       "packagesPath": "C:\\Users\\suu.nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suu.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -518,8 +518,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
-              "projectPath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
+            "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
+              "projectPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
             }
           }
         }

@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
+      "projectUniqueName": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
       "projectName": "DB_NHOM7_DOANCK",
-      "projectPath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
+      "projectPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
       "packagesPath": "C:\\Users\\suu.nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\obj\\",
+      "outputPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suu.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",

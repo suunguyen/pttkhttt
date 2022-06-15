@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mB8zxTqY+XiMB+D6bCJtRCKv9xVm+SYhzgjf8h/GOiHIFrv53vsaznjCeM77DIeuEkEQOc4V6GwlsCQiEA+1ZA==",
+  "dgSpecHash": "MnF80b28HFWfTUBrM1wrf6A4nbdKVD1znHq0tCkfpAO//4OPBDp6x8FCBBR+t1rk6gIPdmRYprLCmmpPSOsHVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\suu.nguyen\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
+  "projectFilePath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suu.nguyen\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\suu.nguyen\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

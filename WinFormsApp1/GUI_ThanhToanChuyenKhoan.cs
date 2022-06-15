@@ -16,4 +16,15 @@ namespace GUI_NHOM7_DOANCK
         {
             InitializeComponent();
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_checkout_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
