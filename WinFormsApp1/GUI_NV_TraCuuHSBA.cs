@@ -51,7 +51,7 @@ namespace GUI_NHOM7_DOANCK
             }
             else
             {
-                MessageBox.Show("Cập Nhập Thành Công!");
+                MessageBox.Show("Cập Nhập Thành Công1");
             }
         }
     }

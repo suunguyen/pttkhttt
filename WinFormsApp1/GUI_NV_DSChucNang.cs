@@ -44,7 +44,8 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_DangKiLichRanh_Click(object sender, EventArgs e)
         {
-            //phần của người làm đăng kí lịch
+            GUI_NV_DangKiLichRanh newform = new GUI_NV_DangKiLichRanh();
+            newform.Show();
         }
 
         private void button_ThongKePhieuDatMua_Click(object sender, EventArgs e)
@@ -54,7 +55,8 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_PhanCong_Click(object sender, EventArgs e)
         {
-            //phần của người làm phân công
+            GUI_NV_XemLichLamViec newform = new GUI_NV_XemLichLamViec();
+            newform.Show();
         }
 
         private void button_TaoChungNhan_Click(object sender, EventArgs e)
