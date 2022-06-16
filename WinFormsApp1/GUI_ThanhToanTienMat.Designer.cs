@@ -30,14 +30,19 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateofpayment = new System.Windows.Forms.DateTimePicker();
-            this.label4 = new System.Windows.Forms.Label();
+            this.tb_paymentId = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.tb_paid = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.picker_dateofpayment = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tb_total = new System.Windows.Forms.TextBox();
             this.tb_customerId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_checkout = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,47 +58,84 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateofpayment);
-            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.tb_paymentId);
+            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.tb_paid);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.picker_dateofpayment);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.tb_total);
             this.groupBox1.Controls.Add(this.tb_customerId);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(88, 95);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(452, 226);
+            this.groupBox1.Size = new System.Drawing.Size(490, 262);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin thanh toán";
             // 
-            // dateofpayment
+            // tb_paymentId
             // 
-            this.dateofpayment.Location = new System.Drawing.Point(158, 154);
-            this.dateofpayment.Name = "dateofpayment";
-            this.dateofpayment.Size = new System.Drawing.Size(200, 23);
-            this.dateofpayment.TabIndex = 9;
+            this.tb_paymentId.Location = new System.Drawing.Point(191, 92);
+            this.tb_paymentId.Name = "tb_paymentId";
+            this.tb_paymentId.Size = new System.Drawing.Size(200, 23);
+            this.tb_paymentId.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(27, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(111, 21);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Mã thanh toán";
+            // 
+            // tb_paid
+            // 
+            this.tb_paid.Location = new System.Drawing.Point(191, 171);
+            this.tb_paid.Name = "tb_paid";
+            this.tb_paid.Size = new System.Drawing.Size(200, 23);
+            this.tb_paid.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(27, 169);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 21);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Số tiền trả";
+            // 
+            // picker_dateofpayment
+            // 
+            this.picker_dateofpayment.Location = new System.Drawing.Point(191, 210);
+            this.picker_dateofpayment.Name = "picker_dateofpayment";
+            this.picker_dateofpayment.Size = new System.Drawing.Size(200, 23);
+            this.picker_dateofpayment.TabIndex = 9;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(27, 154);
+            this.label4.Location = new System.Drawing.Point(27, 210);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Ngày thanh toán";
             // 
-            // tb_paid
+            // tb_total
             // 
-            this.tb_paid.Location = new System.Drawing.Point(158, 110);
-            this.tb_paid.Name = "tb_paid";
-            this.tb_paid.PasswordChar = '*';
-            this.tb_paid.Size = new System.Drawing.Size(200, 23);
-            this.tb_paid.TabIndex = 7;
+            this.tb_total.Location = new System.Drawing.Point(191, 133);
+            this.tb_total.Name = "tb_total";
+            this.tb_total.Size = new System.Drawing.Size(200, 23);
+            this.tb_total.TabIndex = 7;
             // 
             // tb_customerId
             // 
-            this.tb_customerId.Location = new System.Drawing.Point(158, 63);
+            this.tb_customerId.Location = new System.Drawing.Point(191, 52);
             this.tb_customerId.Name = "tb_customerId";
             this.tb_customerId.Size = new System.Drawing.Size(200, 23);
             this.tb_customerId.TabIndex = 6;
@@ -102,17 +144,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(27, 108);
+            this.label3.Location = new System.Drawing.Point(27, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 21);
+            this.label3.Size = new System.Drawing.Size(75, 21);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Số tiền trả trước";
+            this.label3.Text = "Tổng tiền";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(27, 61);
+            this.label2.Location = new System.Drawing.Point(27, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 21);
             this.label2.TabIndex = 4;
@@ -162,13 +204,18 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dateofpayment;
+        private System.Windows.Forms.DateTimePicker picker_dateofpayment;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tb_paid;
+        private System.Windows.Forms.TextBox tb_total;
         private System.Windows.Forms.TextBox tb_customerId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_checkout;
         private System.Windows.Forms.Button btn_cancel;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.TextBox tb_paid;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tb_paymentId;
+        private System.Windows.Forms.Label label6;
     }
 }

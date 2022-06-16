@@ -7,19 +7,22 @@ using System.Data.SqlClient;
 
 namespace DB_NHOM7_DOANCK
 {
-    internal class DB_GhiNhan_TTTMat
+    public class DB_GhiNhan_ThongTinThanhToan
     {
-        public static int GhiNhanTTThanhToanTienMat(int customerId, string dateofpayment, int paid)
+        public static int GhiNhanTTThanhToan(int paymentId, int customerId, string dateofpayment, int total, int paid, int leftAmmount)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=localhost;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
             connecttion.Open();
-            SqlCommand cmd = new SqlCommand("INSERT INTO Payments(CustomerId, DateOfPayment, Paid) VALUES (@customerId, @dateofpayment, @paid)", connecttion);    //cau truy van
+            SqlCommand cmd = new SqlCommand("INSERT INTO Payments(Id, CustomerId, DateOfPayment, Total, Paid, LeftAmount) VALUES (@paymentId, @customerId, @dateofpayment, @total, @paid, @leftAmmount)", connecttion);    //cau truy van
+            cmd.Parameters.AddWithValue("@paymentId", paymentId);
             cmd.Parameters.AddWithValue("@customerId", customerId);        //dung parameter de bao mat data
             cmd.Parameters.AddWithValue("@dateofpayment", dateofpayment);        //dung parameter de bao mat data
+            cmd.Parameters.AddWithValue("@total", total);
             cmd.Parameters.AddWithValue("@paid", paid);        //dung parameter de bao mat data
+            cmd.Parameters.AddWithValue("@leftAmmount", leftAmmount);
             int kq = cmd.ExecuteNonQuery();
             connecttion.Close();        //dong connection
             return kq;

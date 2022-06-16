@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BUS_NHOM7_DOANCK
 {
-    internal class BUS_XuLiDangNhap
+    public class BUS_XuLiDangNhap
     {
     }
 }

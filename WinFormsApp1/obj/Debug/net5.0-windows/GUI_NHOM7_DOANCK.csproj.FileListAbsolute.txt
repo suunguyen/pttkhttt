@@ -63,14 +63,12 @@ C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-win
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_ChungNhanTiemChung.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_DangNhap.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_DKTiemChung.resources
-C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_HinhThucThanhToan.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_KH_DSChucNang.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_NV_DSChucNang.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_NV_DSCNTC.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_NV_DSPDKTC.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_NV_TaoLuuHSBA.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_NV_TraCuuHSBA.resources
-C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_PhuongThucThanhToan.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_ThanhToanChuyenKhoan.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_ThanhToanTienMat.resources
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_XemPDKTC.resources
@@ -86,3 +84,4 @@ C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-win
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.pdb
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.genruntimeconfig.cache
 C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\ref\GUI_NHOM7_DOANCK.dll
+C:\Users\suu.nguyen\Documents\Desktop\pttkhttt\WinFormsApp1\obj\Debug\net5.0-windows\GUI_NHOM7_DOANCK.GUI_PhuongThucThanhToan_Full.resources

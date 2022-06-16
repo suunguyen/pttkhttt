@@ -17,7 +17,7 @@ namespace WinFormsApp1
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI_NHOM7_DOANCK.GUI_NV_DSChucNang());
+            Application.Run(new GUI_NHOM7_DOANCK.GUI_PhuongThucThanhToan_Full());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace GUI_NHOM7_DOANCK
 {
-    partial class GUI_PhuongThucThanhToan
+    partial class GUI_PhuongThucThanhToan_Full
     {
         /// <summary>
         /// Required designer variable.
@@ -28,50 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_credit = new System.Windows.Forms.Button();
-            this.btn_cash = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_credit
+            // button2
             // 
-            this.btn_credit.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_credit.Location = new System.Drawing.Point(450, 183);
-            this.btn_credit.Name = "btn_credit";
-            this.btn_credit.Size = new System.Drawing.Size(175, 68);
-            this.btn_credit.TabIndex = 5;
-            this.btn_credit.Text = "Chuyển khoản";
-            this.btn_credit.UseVisualStyleBackColor = true;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(414, 186);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(196, 73);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Chuyển khoản";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // btn_cash
+            // button1
             // 
-            this.btn_cash.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_cash.Location = new System.Drawing.Point(192, 183);
-            this.btn_cash.Name = "btn_cash";
-            this.btn_cash.Size = new System.Drawing.Size(175, 68);
-            this.btn_cash.TabIndex = 4;
-            this.btn_cash.Text = "Tiền mặt";
-            this.btn_cash.UseVisualStyleBackColor = true;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(154, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(196, 73);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Tiền mặt";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(241, 117);
+            this.label1.Location = new System.Drawing.Point(219, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(361, 32);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 6;
             this.label1.Text = "PHƯƠNG THỨC THANH TOÁN";
             // 
-            // GUI_PhuongThucThanhToan
+            // GUI_PhuongThucThanhToan_Full
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_credit);
-            this.Controls.Add(this.btn_cash);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "GUI_PhuongThucThanhToan";
+            this.Name = "GUI_PhuongThucThanhToan_Full";
             this.Text = "Thanh toán";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -80,8 +82,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_credit;
-        private System.Windows.Forms.Button btn_cash;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
     }
 }

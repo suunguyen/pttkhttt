@@ -16,9 +16,6 @@
     <Compile Update="GUI_KH_DSChucNang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GUI_HinhThucThanhToan.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="GUI_NV_DSChucNang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -34,7 +31,7 @@
     <Compile Update="GUI_NV_TraCuuHSBA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GUI_PhuongThucThanhToan.cs">
+    <Compile Update="GUI_PhuongThucThanhToan_Full.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_ThanhToanChuyenKhoan.cs">

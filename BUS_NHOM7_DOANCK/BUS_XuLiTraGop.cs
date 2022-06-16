@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BUS_NHOM7_DOANCK
 {
-    internal class BUS_XuLiTraGop
+    public class BUS_XuLiTraGop
     {
+        public static int XuLiTraGop(int paymentId, string dateofpayment, float total)
+        {
+            int kq = DB_NHOM7_DOANCK.DB_GhiNhanTTTraGop.GhiNhanThongTinTraGop(paymentId, dateofpayment, total);
+            return kq;
+        }
     }
 }
