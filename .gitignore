@@ -213,7 +213,7 @@ PublishScripts/
 # Microsoft Azure Build Output
 csx/
 *.build.csdef
-
+/WinFormsApp1/.vs
 # Microsoft Azure Emulator
 ecf/
 rcf/

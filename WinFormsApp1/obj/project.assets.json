@@ -492,23 +492,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\haiduong\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\suu.nguyen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PTTKHTTT\\PTTKHTTT_Main\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "projectUniqueName": "C:\\Users\\suu.nguyen\\Documents\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
       "projectName": "GUI_NHOM7_DOANCK",
-      "projectPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
-      "packagesPath": "C:\\Users\\haiduong\\.nuget\\packages\\",
-      "outputPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\suu.nguyen\\Documents\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "packagesPath": "C:\\Users\\suu.nguyen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\suu.nguyen\\Documents\\pttkhttt\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\haiduong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\suu.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -522,8 +518,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\PTTKHTTT\\PTTKHTTT_Main\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
-              "projectPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
+            "C:\\Users\\suu.nguyen\\Documents\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
+              "projectPath": "C:\\Users\\suu.nguyen\\Documents\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
             }
           }
         }
@@ -561,7 +557,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
