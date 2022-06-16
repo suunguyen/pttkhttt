@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD
             this.tb_paymentId = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tb_paid = new System.Windows.Forms.TextBox();
@@ -38,8 +39,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tb_total = new System.Windows.Forms.TextBox();
             this.tb_customerId = new System.Windows.Forms.TextBox();
+=======
+            this.tb_password = new System.Windows.Forms.TextBox();
+            this.tb_username = new System.Windows.Forms.TextBox();
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btn_checkout = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -58,6 +65,7 @@
             // 
             // groupBox1
             // 
+<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.tb_paymentId);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.tb_paid);
@@ -66,6 +74,12 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.tb_total);
             this.groupBox1.Controls.Add(this.tb_customerId);
+=======
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.tb_password);
+            this.groupBox1.Controls.Add(this.tb_username);
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(88, 95);
@@ -75,6 +89,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin thanh toán";
             // 
+<<<<<<< HEAD
             // tb_paymentId
             // 
             this.tb_paymentId.Location = new System.Drawing.Point(191, 92);
@@ -115,9 +130,19 @@
             this.picker_dateofpayment.Name = "picker_dateofpayment";
             this.picker_dateofpayment.Size = new System.Drawing.Size(200, 23);
             this.picker_dateofpayment.TabIndex = 9;
+=======
+            // tb_password
             // 
-            // label4
+            this.tb_password.Location = new System.Drawing.Point(158, 110);
+            this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
+            this.tb_password.Size = new System.Drawing.Size(200, 23);
+            this.tb_password.TabIndex = 7;
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
             // 
+            // tb_username
+            // 
+<<<<<<< HEAD
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(27, 210);
@@ -139,6 +164,12 @@
             this.tb_customerId.Name = "tb_customerId";
             this.tb_customerId.Size = new System.Drawing.Size(200, 23);
             this.tb_customerId.TabIndex = 6;
+=======
+            this.tb_username.Location = new System.Drawing.Point(158, 63);
+            this.tb_username.Name = "tb_username";
+            this.tb_username.Size = new System.Drawing.Size(200, 23);
+            this.tb_username.TabIndex = 6;
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
             // 
             // label3
             // 
@@ -160,6 +191,23 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Mã khách hàng";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(27, 154);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(126, 21);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Ngày thanh toán";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(158, 154);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 9;
+            // 
             // btn_checkout
             // 
             this.btn_checkout.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -169,7 +217,6 @@
             this.btn_checkout.TabIndex = 6;
             this.btn_checkout.Text = "Thanh toán";
             this.btn_checkout.UseVisualStyleBackColor = true;
-            this.btn_checkout.Click += new System.EventHandler(this.btn_checkout_Click);
             // 
             // btn_cancel
             // 
@@ -180,7 +227,6 @@
             this.btn_cancel.TabIndex = 7;
             this.btn_cancel.Text = "Hủy bỏ";
             this.btn_cancel.UseVisualStyleBackColor = true;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // GUI_ThanhToanTienMat
             // 
@@ -204,10 +250,17 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
+<<<<<<< HEAD
         private System.Windows.Forms.DateTimePicker picker_dateofpayment;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tb_total;
         private System.Windows.Forms.TextBox tb_customerId;
+=======
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tb_password;
+        private System.Windows.Forms.TextBox tb_username;
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_checkout;

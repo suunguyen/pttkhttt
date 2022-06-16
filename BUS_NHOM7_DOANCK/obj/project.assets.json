@@ -473,19 +473,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suu.nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\haiduong\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj",
+      "projectUniqueName": "C:\\PTTKHTTT\\PTTKHTTT_Main\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj",
       "projectName": "BUS_NHOM7_DOANCK",
-      "projectPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj",
-      "packagesPath": "C:\\Users\\suu.nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\obj\\",
+      "projectPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj",
+      "packagesPath": "C:\\Users\\haiduong\\.nuget\\packages\\",
+      "outputPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\BUS_NHOM7_DOANCK\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\suu.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haiduong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -499,8 +503,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj": {
-              "projectPath": "C:\\Users\\suu.nguyen\\Documents\\Desktop\\pttkhttt\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj"
+            "C:\\PTTKHTTT\\PTTKHTTT_Main\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj": {
+              "projectPath": "C:\\PTTKHTTT\\PTTKHTTT_Main\\DB_NHOM7_DOANCK\\DB_NHOM7_DOANCK.csproj"
             }
           }
         }
@@ -535,7 +539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,6 +16,7 @@ namespace GUI_NHOM7_DOANCK
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void btn_cancel_Click(object sender, EventArgs e)
         {
@@ -86,5 +87,7 @@ namespace GUI_NHOM7_DOANCK
                 MessageBox.Show("Xảy ra lỗi trong quá trình thanh toán, vui lòng kiểm tra lại!");
             }
         }
+=======
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
     }
 }

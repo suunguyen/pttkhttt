@@ -16,6 +16,7 @@ namespace GUI_NHOM7_DOANCK
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void btn_checkout_Click(object sender, EventArgs e)
         {
@@ -80,5 +81,7 @@ namespace GUI_NHOM7_DOANCK
             this.Close();
         }
 
+=======
+>>>>>>> b357fb5c77ad67a1cb9751488e10753230415924
     }
 }
