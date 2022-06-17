@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS_NHOM7_DOANCK;
 
 namespace GUI_NHOM7_DOANCK
 {
@@ -41,7 +42,11 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_DatMuaVaccine_Click(object sender, EventArgs e)
         {
-            //Phần của người làm đặt mua vaccine
+            string CusID = User;
+            int kq = BUS_DatMuaVX.XuLiThemHD(CusID);
+            GUI_KH_TaoLuuDMVX newform = new GUI_KH_TaoLuuDMVX();
+            newform.User = User;
+            newform.Show();
         }
     }
 }

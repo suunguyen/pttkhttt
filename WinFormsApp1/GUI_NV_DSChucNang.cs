@@ -50,7 +50,8 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_ThongKePhieuDatMua_Click(object sender, EventArgs e)
         {
-            //pần của người làm thống kê phiếu đặt mua
+            GUI_NV_ThongKePDM newform = new GUI_NV_ThongKePDM();
+            newform.Show();
         }
 
         private void button_PhanCong_Click(object sender, EventArgs e)
@@ -62,6 +63,12 @@ namespace GUI_NHOM7_DOANCK
         private void button_TaoChungNhan_Click(object sender, EventArgs e)
         {
             //phần của người làm tạo chứng nhận
+        }
+
+        private void BT_DuyetDMVX_Click(object sender, EventArgs e)
+        {
+            GUI_NV_DSDMVX newform = new GUI_NV_DSDMVX();
+            newform.Show();
         }
     }
 }

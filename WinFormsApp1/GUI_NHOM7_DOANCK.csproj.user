@@ -14,7 +14,13 @@
     <Compile Update="GUI_DKTiemChung.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="GUI_HoaDonDMVX.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="GUI_KH_DSChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_KH_TaoLuuDMVX.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_NV_DangKiLichRanh.cs">
@@ -26,10 +32,16 @@
     <Compile Update="GUI_NV_DSCNTC.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="GUI_NV_DSDMVX.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="GUI_NV_DSPDKTC.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_NV_TaoLuuHSBA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI_NV_ThongKePDM.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="GUI_NV_TraCuuHSBA.cs">

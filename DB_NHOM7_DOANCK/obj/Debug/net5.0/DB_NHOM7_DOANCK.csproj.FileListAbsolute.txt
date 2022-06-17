@@ -10,3 +10,15 @@ C:\Users\suu.nguyen\Documents\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7
 C:\Users\suu.nguyen\Documents\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\refint\DB_NHOM7_DOANCK.dll
 C:\Users\suu.nguyen\Documents\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.pdb
 C:\Users\suu.nguyen\Documents\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\ref\DB_NHOM7_DOANCK.dll
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\bin\Debug\net5.0\DB_NHOM7_DOANCK.deps.json
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\bin\Debug\net5.0\DB_NHOM7_DOANCK.dll
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\bin\Debug\net5.0\ref\DB_NHOM7_DOANCK.dll
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\bin\Debug\net5.0\DB_NHOM7_DOANCK.pdb
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.dll
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\ref\DB_NHOM7_DOANCK.dll
+C:\Users\ADMIN\Desktop\pttkhttt\DB_NHOM7_DOANCK\obj\Debug\net5.0\DB_NHOM7_DOANCK.pdb
