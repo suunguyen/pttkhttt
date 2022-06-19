@@ -492,23 +492,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
       "projectName": "GUI_NHOM7_DOANCK",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\pttkhttt\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\pttkhttt\\WinFormsApp1\\GUI_NHOM7_DOANCK.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\pttkhttt\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -522,8 +518,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
+            "C:\\Users\\Dell\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\pttkhttt\\BUS_NHOM7_DOANCK\\BUS_NHOM7_DOANCK.csproj"
             }
           }
         }
@@ -553,24 +549,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -579,7 +557,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

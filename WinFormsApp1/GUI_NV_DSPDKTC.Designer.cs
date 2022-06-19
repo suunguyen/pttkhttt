@@ -392,7 +392,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.lb_PhieuDK);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "GUI_NV_DSPDKTC";
-            this.Text = "Đăng Kí Tiêm Chủng";
+            this.Text = "Danh Sách Phiếu Đăng Kí Tiêm Chủng";
             this.Load += new System.EventHandler(this.GUI_NV_DSPDKTC_Load);
             this.groupBox_P_ThongTinNguoiTiem.ResumeLayout(false);
             this.groupBox_P_ThongTinNguoiTiem.PerformLayout();

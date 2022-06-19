@@ -179,7 +179,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.groupBox_TTHSBA);
             this.Controls.Add(this.label_Head_TraCuuHSBA);
             this.Name = "GUI_NV_TraCuuHSBA";
-            this.Text = "GUI_NV_TaoLuuHSBA";
+            this.Text = "Tra Cứu HSBA";
             this.Load += new System.EventHandler(this.GUI_NV_TraCuuHSBA_Load);
             this.groupBox_TTHSBA.ResumeLayout(false);
             this.groupBox_TTHSBA.PerformLayout();

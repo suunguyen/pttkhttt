@@ -31,12 +31,12 @@ namespace GUI_NHOM7_DOANCK
         {
             this.label_Head_TaoLuuHSBA = new System.Windows.Forms.Label();
             this.groupBox_NhapTTHSBA = new System.Windows.Forms.GroupBox();
-            this.label_MaKH = new System.Windows.Forms.Label();
-            this.label_MaHSBA = new System.Windows.Forms.Label();
-            this.label_NoiCapHSBA = new System.Windows.Forms.Label();
-            this.textBox_MaKH = new System.Windows.Forms.TextBox();
-            this.textBox_MaHSBA = new System.Windows.Forms.TextBox();
             this.textBox_NoiCapHSBA = new System.Windows.Forms.TextBox();
+            this.textBox_MaHSBA = new System.Windows.Forms.TextBox();
+            this.textBox_MaKH = new System.Windows.Forms.TextBox();
+            this.label_NoiCapHSBA = new System.Windows.Forms.Label();
+            this.label_MaHSBA = new System.Windows.Forms.Label();
+            this.label_MaKH = new System.Windows.Forms.Label();
             this.button_TaoHSBA = new System.Windows.Forms.Button();
             this.button_Huy = new System.Windows.Forms.Button();
             this.groupBox_NhapTTHSBA.SuspendLayout();
@@ -68,25 +68,29 @@ namespace GUI_NHOM7_DOANCK
             this.groupBox_NhapTTHSBA.TabStop = false;
             this.groupBox_NhapTTHSBA.Text = "Nhập thông tin hồ sơ";
             // 
-            // label_MaKH
+            // textBox_NoiCapHSBA
             // 
-            this.label_MaKH.AutoSize = true;
-            this.label_MaKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_MaKH.Location = new System.Drawing.Point(6, 49);
-            this.label_MaKH.Name = "label_MaKH";
-            this.label_MaKH.Size = new System.Drawing.Size(119, 21);
-            this.label_MaKH.TabIndex = 0;
-            this.label_MaKH.Text = "Mã Khách Hàng";
+            this.textBox_NoiCapHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_NoiCapHSBA.Location = new System.Drawing.Point(131, 146);
+            this.textBox_NoiCapHSBA.Name = "textBox_NoiCapHSBA";
+            this.textBox_NoiCapHSBA.Size = new System.Drawing.Size(639, 29);
+            this.textBox_NoiCapHSBA.TabIndex = 5;
             // 
-            // label_MaHSBA
+            // textBox_MaHSBA
             // 
-            this.label_MaHSBA.AutoSize = true;
-            this.label_MaHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_MaHSBA.Location = new System.Drawing.Point(6, 98);
-            this.label_MaHSBA.Name = "label_MaHSBA";
-            this.label_MaHSBA.Size = new System.Drawing.Size(75, 21);
-            this.label_MaHSBA.TabIndex = 1;
-            this.label_MaHSBA.Text = "Mã HSBA";
+            this.textBox_MaHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_MaHSBA.Location = new System.Drawing.Point(131, 95);
+            this.textBox_MaHSBA.Name = "textBox_MaHSBA";
+            this.textBox_MaHSBA.Size = new System.Drawing.Size(639, 29);
+            this.textBox_MaHSBA.TabIndex = 4;
+            // 
+            // textBox_MaKH
+            // 
+            this.textBox_MaKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox_MaKH.Location = new System.Drawing.Point(131, 46);
+            this.textBox_MaKH.Name = "textBox_MaKH";
+            this.textBox_MaKH.Size = new System.Drawing.Size(639, 29);
+            this.textBox_MaKH.TabIndex = 3;
             // 
             // label_NoiCapHSBA
             // 
@@ -98,29 +102,25 @@ namespace GUI_NHOM7_DOANCK
             this.label_NoiCapHSBA.TabIndex = 2;
             this.label_NoiCapHSBA.Text = "Nơi Cấp";
             // 
-            // textBox_MaKH
+            // label_MaHSBA
             // 
-            this.textBox_MaKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox_MaKH.Location = new System.Drawing.Point(131, 46);
-            this.textBox_MaKH.Name = "textBox_MaKH";
-            this.textBox_MaKH.Size = new System.Drawing.Size(639, 29);
-            this.textBox_MaKH.TabIndex = 3;
+            this.label_MaHSBA.AutoSize = true;
+            this.label_MaHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_MaHSBA.Location = new System.Drawing.Point(6, 98);
+            this.label_MaHSBA.Name = "label_MaHSBA";
+            this.label_MaHSBA.Size = new System.Drawing.Size(75, 21);
+            this.label_MaHSBA.TabIndex = 1;
+            this.label_MaHSBA.Text = "Mã HSBA";
             // 
-            // textBox_MaHSBA
+            // label_MaKH
             // 
-            this.textBox_MaHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox_MaHSBA.Location = new System.Drawing.Point(131, 95);
-            this.textBox_MaHSBA.Name = "textBox_MaHSBA";
-            this.textBox_MaHSBA.Size = new System.Drawing.Size(639, 29);
-            this.textBox_MaHSBA.TabIndex = 4;
-            // 
-            // textBox_NoiCapHSBA
-            // 
-            this.textBox_NoiCapHSBA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox_NoiCapHSBA.Location = new System.Drawing.Point(131, 146);
-            this.textBox_NoiCapHSBA.Name = "textBox_NoiCapHSBA";
-            this.textBox_NoiCapHSBA.Size = new System.Drawing.Size(639, 29);
-            this.textBox_NoiCapHSBA.TabIndex = 5;
+            this.label_MaKH.AutoSize = true;
+            this.label_MaKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_MaKH.Location = new System.Drawing.Point(6, 49);
+            this.label_MaKH.Name = "label_MaKH";
+            this.label_MaKH.Size = new System.Drawing.Size(119, 21);
+            this.label_MaKH.TabIndex = 0;
+            this.label_MaKH.Text = "Mã Khách Hàng";
             // 
             // button_TaoHSBA
             // 
@@ -152,7 +152,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.groupBox_NhapTTHSBA);
             this.Controls.Add(this.label_Head_TaoLuuHSBA);
             this.Name = "GUI_NV_TaoLuuHSBA";
-            this.Text = "GUI_NV_TaoLuuHSBA";
+            this.Text = "Tạo Lưu HSBA";
             this.groupBox_NhapTTHSBA.ResumeLayout(false);
             this.groupBox_NhapTTHSBA.PerformLayout();
             this.ResumeLayout(false);
