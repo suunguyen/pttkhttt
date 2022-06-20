@@ -31,6 +31,8 @@ namespace GUI_NHOM7_DOANCK
         {
             this.label_HeadChungNhanTimeChung = new System.Windows.Forms.Label();
             this.groupBox_TTCaNhan = new System.Windows.Forms.GroupBox();
+            this.textBox_loaivaccine = new System.Windows.Forms.TextBox();
+            this.label_loaivaccine = new System.Windows.Forms.Label();
             this.label_SLMui = new System.Windows.Forms.Label();
             this.textBox_Sdt = new System.Windows.Forms.TextBox();
             this.textBox_SLMui = new System.Windows.Forms.TextBox();
@@ -64,6 +66,8 @@ namespace GUI_NHOM7_DOANCK
             // 
             // groupBox_TTCaNhan
             // 
+            this.groupBox_TTCaNhan.Controls.Add(this.textBox_loaivaccine);
+            this.groupBox_TTCaNhan.Controls.Add(this.label_loaivaccine);
             this.groupBox_TTCaNhan.Controls.Add(this.label_SLMui);
             this.groupBox_TTCaNhan.Controls.Add(this.textBox_Sdt);
             this.groupBox_TTCaNhan.Controls.Add(this.textBox_SLMui);
@@ -86,6 +90,24 @@ namespace GUI_NHOM7_DOANCK
             this.groupBox_TTCaNhan.TabStop = false;
             this.groupBox_TTCaNhan.Text = "Thông Tin Cá Nhân";
             // 
+            // textBox_loaivaccine
+            // 
+            this.textBox_loaivaccine.Location = new System.Drawing.Point(480, 164);
+            this.textBox_loaivaccine.Name = "textBox_loaivaccine";
+            this.textBox_loaivaccine.ReadOnly = true;
+            this.textBox_loaivaccine.Size = new System.Drawing.Size(258, 29);
+            this.textBox_loaivaccine.TabIndex = 13;
+            // 
+            // label_loaivaccine
+            // 
+            this.label_loaivaccine.AutoSize = true;
+            this.label_loaivaccine.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_loaivaccine.Location = new System.Drawing.Point(391, 167);
+            this.label_loaivaccine.Name = "label_loaivaccine";
+            this.label_loaivaccine.Size = new System.Drawing.Size(83, 19);
+            this.label_loaivaccine.TabIndex = 12;
+            this.label_loaivaccine.Text = "Loại Vaccine";
+            // 
             // label_SLMui
             // 
             this.label_SLMui.AutoSize = true;
@@ -98,10 +120,10 @@ namespace GUI_NHOM7_DOANCK
             // 
             // textBox_Sdt
             // 
-            this.textBox_Sdt.Location = new System.Drawing.Point(482, 119);
+            this.textBox_Sdt.Location = new System.Drawing.Point(480, 119);
             this.textBox_Sdt.Name = "textBox_Sdt";
             this.textBox_Sdt.ReadOnly = true;
-            this.textBox_Sdt.Size = new System.Drawing.Size(272, 29);
+            this.textBox_Sdt.Size = new System.Drawing.Size(258, 29);
             this.textBox_Sdt.TabIndex = 11;
             // 
             // textBox_SLMui
@@ -110,23 +132,23 @@ namespace GUI_NHOM7_DOANCK
             this.textBox_SLMui.Location = new System.Drawing.Point(92, 164);
             this.textBox_SLMui.Name = "textBox_SLMui";
             this.textBox_SLMui.ReadOnly = true;
-            this.textBox_SLMui.Size = new System.Drawing.Size(272, 29);
+            this.textBox_SLMui.Size = new System.Drawing.Size(258, 29);
             this.textBox_SLMui.TabIndex = 3;
             // 
             // textBox_DiaChi
             // 
-            this.textBox_DiaChi.Location = new System.Drawing.Point(482, 76);
+            this.textBox_DiaChi.Location = new System.Drawing.Point(480, 76);
             this.textBox_DiaChi.Name = "textBox_DiaChi";
             this.textBox_DiaChi.ReadOnly = true;
-            this.textBox_DiaChi.Size = new System.Drawing.Size(272, 29);
+            this.textBox_DiaChi.Size = new System.Drawing.Size(258, 29);
             this.textBox_DiaChi.TabIndex = 10;
             // 
             // textBox_GioiTinh
             // 
-            this.textBox_GioiTinh.Location = new System.Drawing.Point(482, 33);
+            this.textBox_GioiTinh.Location = new System.Drawing.Point(480, 33);
             this.textBox_GioiTinh.Name = "textBox_GioiTinh";
             this.textBox_GioiTinh.ReadOnly = true;
-            this.textBox_GioiTinh.Size = new System.Drawing.Size(272, 29);
+            this.textBox_GioiTinh.Size = new System.Drawing.Size(258, 29);
             this.textBox_GioiTinh.TabIndex = 9;
             // 
             // textBox_CMND
@@ -134,7 +156,7 @@ namespace GUI_NHOM7_DOANCK
             this.textBox_CMND.Location = new System.Drawing.Point(92, 119);
             this.textBox_CMND.Name = "textBox_CMND";
             this.textBox_CMND.ReadOnly = true;
-            this.textBox_CMND.Size = new System.Drawing.Size(272, 29);
+            this.textBox_CMND.Size = new System.Drawing.Size(258, 29);
             this.textBox_CMND.TabIndex = 8;
             // 
             // textBox_NgSinh
@@ -142,7 +164,7 @@ namespace GUI_NHOM7_DOANCK
             this.textBox_NgSinh.Location = new System.Drawing.Point(92, 76);
             this.textBox_NgSinh.Name = "textBox_NgSinh";
             this.textBox_NgSinh.ReadOnly = true;
-            this.textBox_NgSinh.Size = new System.Drawing.Size(272, 29);
+            this.textBox_NgSinh.Size = new System.Drawing.Size(258, 29);
             this.textBox_NgSinh.TabIndex = 7;
             // 
             // textBox_HoTen
@@ -150,14 +172,14 @@ namespace GUI_NHOM7_DOANCK
             this.textBox_HoTen.Location = new System.Drawing.Point(92, 33);
             this.textBox_HoTen.Name = "textBox_HoTen";
             this.textBox_HoTen.ReadOnly = true;
-            this.textBox_HoTen.Size = new System.Drawing.Size(272, 29);
+            this.textBox_HoTen.Size = new System.Drawing.Size(258, 29);
             this.textBox_HoTen.TabIndex = 6;
             // 
             // label_Sdt
             // 
             this.label_Sdt.AutoSize = true;
             this.label_Sdt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_Sdt.Location = new System.Drawing.Point(413, 125);
+            this.label_Sdt.Location = new System.Drawing.Point(391, 125);
             this.label_Sdt.Name = "label_Sdt";
             this.label_Sdt.Size = new System.Drawing.Size(33, 19);
             this.label_Sdt.TabIndex = 5;
@@ -167,7 +189,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             this.label_DiaChi.AutoSize = true;
             this.label_DiaChi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_DiaChi.Location = new System.Drawing.Point(413, 82);
+            this.label_DiaChi.Location = new System.Drawing.Point(391, 82);
             this.label_DiaChi.Name = "label_DiaChi";
             this.label_DiaChi.Size = new System.Drawing.Size(53, 19);
             this.label_DiaChi.TabIndex = 4;
@@ -177,7 +199,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             this.label_GioiTinh.AutoSize = true;
             this.label_GioiTinh.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_GioiTinh.Location = new System.Drawing.Point(413, 39);
+            this.label_GioiTinh.Location = new System.Drawing.Point(391, 39);
             this.label_GioiTinh.Name = "label_GioiTinh";
             this.label_GioiTinh.Size = new System.Drawing.Size(63, 19);
             this.label_GioiTinh.TabIndex = 3;
@@ -255,7 +277,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.groupBox_TTCaNhan);
             this.Controls.Add(this.label_HeadChungNhanTimeChung);
             this.Name = "GUI_NV_DSCNTC";
-            this.Text = "GUI_ChungNhanTiemChung";
+            this.Text = "Danh Sách Chứng Nhận Tiêm Chủng";
             this.Load += new System.EventHandler(this.GUI_NV_DSCNTC_Load);
             this.groupBox_TTCaNhan.ResumeLayout(false);
             this.groupBox_TTCaNhan.PerformLayout();
@@ -285,5 +307,7 @@ namespace GUI_NHOM7_DOANCK
         private System.Windows.Forms.TextBox textBox_SLMui;
         private System.Windows.Forms.DataGridView dataGridView_DSCN;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox_loaivaccine;
+        private System.Windows.Forms.Label label_loaivaccine;
     }
 }

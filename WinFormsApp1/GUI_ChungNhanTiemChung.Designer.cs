@@ -37,6 +37,8 @@ namespace GUI_NHOM7_DOANCK
             this.label_DaTiem = new System.Windows.Forms.Label();
             this.pictureBox_Shield = new System.Windows.Forms.PictureBox();
             this.groupBox_TTCaNhan = new System.Windows.Forms.GroupBox();
+            this.textBox_LoaiVaccine = new System.Windows.Forms.TextBox();
+            this.label_loaiVaccine = new System.Windows.Forms.Label();
             this.textBox_Sdt = new System.Windows.Forms.TextBox();
             this.textBox_DiaChi = new System.Windows.Forms.TextBox();
             this.textBox_GioiTinh = new System.Windows.Forms.TextBox();
@@ -130,6 +132,8 @@ namespace GUI_NHOM7_DOANCK
             // 
             // groupBox_TTCaNhan
             // 
+            this.groupBox_TTCaNhan.Controls.Add(this.textBox_LoaiVaccine);
+            this.groupBox_TTCaNhan.Controls.Add(this.label_loaiVaccine);
             this.groupBox_TTCaNhan.Controls.Add(this.textBox_Sdt);
             this.groupBox_TTCaNhan.Controls.Add(this.textBox_DiaChi);
             this.groupBox_TTCaNhan.Controls.Add(this.textBox_GioiTinh);
@@ -143,12 +147,29 @@ namespace GUI_NHOM7_DOANCK
             this.groupBox_TTCaNhan.Controls.Add(this.label_NgSinh);
             this.groupBox_TTCaNhan.Controls.Add(this.label_HoTen);
             this.groupBox_TTCaNhan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox_TTCaNhan.Location = new System.Drawing.Point(12, 408);
+            this.groupBox_TTCaNhan.Location = new System.Drawing.Point(12, 467);
             this.groupBox_TTCaNhan.Name = "groupBox_TTCaNhan";
-            this.groupBox_TTCaNhan.Size = new System.Drawing.Size(776, 163);
+            this.groupBox_TTCaNhan.Size = new System.Drawing.Size(776, 204);
             this.groupBox_TTCaNhan.TabIndex = 3;
             this.groupBox_TTCaNhan.TabStop = false;
             this.groupBox_TTCaNhan.Text = "Thông Tin Cá Nhân";
+            // 
+            // textBox_LoaiVaccine
+            // 
+            this.textBox_LoaiVaccine.Location = new System.Drawing.Point(121, 161);
+            this.textBox_LoaiVaccine.Name = "textBox_LoaiVaccine";
+            this.textBox_LoaiVaccine.ReadOnly = true;
+            this.textBox_LoaiVaccine.Size = new System.Drawing.Size(272, 29);
+            this.textBox_LoaiVaccine.TabIndex = 13;
+            // 
+            // label_loaiVaccine
+            // 
+            this.label_loaiVaccine.AutoSize = true;
+            this.label_loaiVaccine.Location = new System.Drawing.Point(7, 164);
+            this.label_loaiVaccine.Name = "label_loaiVaccine";
+            this.label_loaiVaccine.Size = new System.Drawing.Size(95, 21);
+            this.label_loaiVaccine.TabIndex = 12;
+            this.label_loaiVaccine.Text = "Loại Vaccine";
             // 
             // textBox_Sdt
             // 
@@ -176,7 +197,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // textBox_CMND
             // 
-            this.textBox_CMND.Location = new System.Drawing.Point(92, 119);
+            this.textBox_CMND.Location = new System.Drawing.Point(121, 119);
             this.textBox_CMND.Name = "textBox_CMND";
             this.textBox_CMND.ReadOnly = true;
             this.textBox_CMND.Size = new System.Drawing.Size(272, 29);
@@ -184,7 +205,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // textBox_NgSinh
             // 
-            this.textBox_NgSinh.Location = new System.Drawing.Point(92, 76);
+            this.textBox_NgSinh.Location = new System.Drawing.Point(121, 76);
             this.textBox_NgSinh.Name = "textBox_NgSinh";
             this.textBox_NgSinh.ReadOnly = true;
             this.textBox_NgSinh.Size = new System.Drawing.Size(272, 29);
@@ -192,7 +213,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // textBox_HoTen
             // 
-            this.textBox_HoTen.Location = new System.Drawing.Point(92, 33);
+            this.textBox_HoTen.Location = new System.Drawing.Point(121, 33);
             this.textBox_HoTen.Name = "textBox_HoTen";
             this.textBox_HoTen.ReadOnly = true;
             this.textBox_HoTen.Size = new System.Drawing.Size(272, 29);
@@ -260,7 +281,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // button_Dong
             // 
-            this.button_Dong.Location = new System.Drawing.Point(692, 579);
+            this.button_Dong.Location = new System.Drawing.Point(692, 677);
             this.button_Dong.Name = "button_Dong";
             this.button_Dong.Size = new System.Drawing.Size(96, 39);
             this.button_Dong.TabIndex = 4;
@@ -275,7 +296,7 @@ namespace GUI_NHOM7_DOANCK
             this.dataGridView_CNTC.Name = "dataGridView_CNTC";
             this.dataGridView_CNTC.ReadOnly = true;
             this.dataGridView_CNTC.RowTemplate.Height = 25;
-            this.dataGridView_CNTC.Size = new System.Drawing.Size(776, 77);
+            this.dataGridView_CNTC.Size = new System.Drawing.Size(776, 136);
             this.dataGridView_CNTC.TabIndex = 5;
             this.dataGridView_CNTC.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -283,7 +304,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 630);
+            this.ClientSize = new System.Drawing.Size(800, 728);
             this.Controls.Add(this.dataGridView_CNTC);
             this.Controls.Add(this.button_Dong);
             this.Controls.Add(this.groupBox_TTCaNhan);
@@ -329,5 +350,7 @@ namespace GUI_NHOM7_DOANCK
         private System.Windows.Forms.DataGridView dataGridView_CNTC;
         private System.Windows.Forms.TextBox textBox_SLMui;
         private System.Windows.Forms.Label label_SLMui;
+        private System.Windows.Forms.TextBox textBox_LoaiVaccine;
+        private System.Windows.Forms.Label label_loaiVaccine;
     }
 }

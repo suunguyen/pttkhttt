@@ -41,6 +41,7 @@ namespace GUI_NHOM7_DOANCK
             textBox_Sdt.Text = dataGridView_DSCN.Rows[i].Cells[8].Value.ToString();
             textBox_NgSinh.Text = dataGridView_DSCN.Rows[i].Cells[9].Value.ToString();
             textBox_GioiTinh.Text = dataGridView_DSCN.Rows[i].Cells[10].Value.ToString();
+            textBox_loaivaccine.Text = dataGridView_DSCN.Rows[i].Cells[14].Value.ToString();
         }
     }
 }

@@ -17,7 +17,7 @@ namespace DB_NHOM7_DOANCK
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
             connecttion.Open();
-            SqlCommand cmd = new SqlCommand("SELECT * FROM VaccineCertificate V, Customers C WHERE C.Username = @CusID AND V.CustomerId = C.Id", connecttion);    //cau truy van
+            SqlCommand cmd = new SqlCommand("SELECT V.id, V.CustomerId, V.DateOfCompletion, V.NumberOfInjection, V.VaccineId, C.Name, C.IdentityNumber, C.Address, C.Phone, C.DOB, C.Gender, C.ProtectorName, C.ProtectorPhone, C.Relationship, Vc.Name FROM VaccineCertificate V, Customers C, Vaccines Vc WHERE C.Username = @CusID AND V.CustomerId = C.Id AND V.VaccineId = Vc.Id", connecttion);    //cau truy van
             cmd.Parameters.AddWithValue("@CusID", CusID);        //dung parameter de bao mat data
             cmd.ExecuteNonQuery();
             connecttion.Close();        //dong connection
