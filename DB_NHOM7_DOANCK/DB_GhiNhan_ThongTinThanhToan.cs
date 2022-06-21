@@ -12,11 +12,11 @@ namespace DB_NHOM7_DOANCK
         public static int GhiNhanTTThanhToan(int paymentId, int customerId, string dateofpayment, int total, int paid, int leftAmmount)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=localhost;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
             connecttion.Open();
-            SqlCommand cmd = new SqlCommand("INSERT INTO Payments(Id, CustomerId, DateOfPayment, Total, Paid, LeftAmount) VALUES (@paymentId, @customerId, @dateofpayment, @total, @paid, @leftAmmount)", connecttion);    //cau truy van
+            SqlCommand cmd = new SqlCommand("INSERT INTO Payments(CustomerId, DateOfPayment, Total, Paid, LeftAmount) VALUES (@customerId, @dateofpayment, @total, @paid, @leftAmmount)", connecttion);    //cau truy van
             cmd.Parameters.AddWithValue("@paymentId", paymentId);
             cmd.Parameters.AddWithValue("@customerId", customerId);        //dung parameter de bao mat data
             cmd.Parameters.AddWithValue("@dateofpayment", dateofpayment);        //dung parameter de bao mat data

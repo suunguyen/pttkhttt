@@ -13,7 +13,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadDSDM()
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
@@ -28,7 +28,7 @@ namespace DB_NHOM7_DOANCK
         public static int UpdateBill_NV(int BillID, string Status)
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             connection = new SqlConnection(str);
             connection.Open();
@@ -42,7 +42,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadCTHD_NV(int BillID)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql

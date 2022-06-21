@@ -18,12 +18,12 @@ namespace DB_NHOM7_DOANCK
         public static int TaoChungNhanTiemChung(int _customerID, int _vaccineID, int _numberOfInjection)
         {
             int rowsInserted = 0;
-            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open(); 
                 var sql = $"INSERT INTO VaccineCertificate (CustomerID, DateOfCompletion, VaccineID, NumberOfInjection) " +
-                            $"VALUES ('@customerID', '@dateOfCompletion', '@vaccineID', '@numberOfInjection')";
+                            $"VALUES (@customerID, @dateOfCompletion, @vaccineID, @numberOfInjection)";
                 var cmd = new SqlCommand(sql, connection);
                 cmd.Parameters.AddWithValue("@customerID", _customerID);
                 cmd.Parameters.AddWithValue("@vaccineID", _vaccineID);
@@ -37,11 +37,11 @@ namespace DB_NHOM7_DOANCK
         public static Dictionary<string, string> LoadThongTinKhachHang(string _customerID)
         {
             var info = new Dictionary<string, string>();
-            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open();
-                var sql = "SELECT Name, Gender, DOB, Address, IdentityNumber, Phone FROM Customers WHERE Id = '@customerID'";
+                var sql = "SELECT Name, Gender, DOB, Address, IdentityNumber, Phone FROM Customers WHERE Id = @customerID";
                 var cmd = new SqlCommand(sql, connection);
                 cmd.Parameters.AddWithValue("@customerID", _customerID);
                 using (SqlDataReader reader = cmd.ExecuteReader())
@@ -63,11 +63,11 @@ namespace DB_NHOM7_DOANCK
         public static Dictionary<string, string> LoadThongTinVaccine(string _vaccineID)
         {
             var info = new Dictionary<string, string>();
-            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open();
-                var sql = "SELECT Id, Name FROM Vaccines WHERE Id = '@vaccineID'";
+                var sql = "SELECT Id, Name FROM Vaccines WHERE Id = @vaccineID";
                 var cmd = new SqlCommand(sql, connection);
                 cmd.Parameters.AddWithValue("@vaccineID", _vaccineID);
                 using (SqlDataReader reader = cmd.ExecuteReader())

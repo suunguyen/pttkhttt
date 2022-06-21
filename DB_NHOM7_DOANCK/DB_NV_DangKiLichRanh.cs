@@ -8,7 +8,7 @@ namespace DB
         public static int InsertDKLR(int StaffID, DateTime StartTime, DateTime EndTime)
         {
             SqlConnection connection;
-            String str= @"Data Source=DESKTOP-RQOM2TC\DUONG;Initial Catalog=Vaccination;Integrated Security=True";
+            String str= @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             connection = new SqlConnection(str);
             connection.Open();
@@ -23,7 +23,7 @@ namespace DB
         public static DataTable LoadLichDangKi()
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-RQOM2TC\DUONG;Initial Catalog=Vaccination;Integrated Security=True";
+            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connection = new SqlConnection(str);

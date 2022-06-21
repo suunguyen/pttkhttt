@@ -7,7 +7,7 @@ namespace DB_NHOM7_DOANCK
         public static int DangKy(string email, string username, string password)
         {
             int rowsInserted = 0;
-            string connect_string = @"Data Source=ORIENTSOFTWARE\suu.nguyen;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open(); 

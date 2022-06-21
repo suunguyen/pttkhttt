@@ -13,7 +13,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadHDTK(int Thang, int Nam)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
@@ -30,7 +30,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadHDTK_Nam(int Nam)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
@@ -46,7 +46,7 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadDSHD()
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-QO2O9VS;Initial Catalog=Vaccination;Integrated Security=True";
+            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
