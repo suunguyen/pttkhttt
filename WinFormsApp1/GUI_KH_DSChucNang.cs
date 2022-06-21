@@ -13,7 +13,7 @@ namespace GUI_NHOM7_DOANCK
 {
     public partial class GUI_KH_DSChucNang : Form
     {
-        public string User; //t tạo cái biến này ở đây để khi m đăng nhập, m cho cái tài khoản lưu vào biên này nhe, để sau này dùng nó đi truy vấn.
+        public string User = "Thanh"; //t tạo cái biến này ở đây để khi m đăng nhập, m cho cái tài khoản lưu vào biên này nhe, để sau này dùng nó đi truy vấn.
         public GUI_KH_DSChucNang()
         {
             InitializeComponent();

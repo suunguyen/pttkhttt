@@ -40,8 +40,8 @@ namespace GUI_NHOM7_DOANCK
         private void BT_DKI_Click(object sender, EventArgs e)
         {
             int StaffId = Int32.Parse(TB_MaNV.Text);
-            DateTime ST = DateTime.Parse(TB_ST.Text);
-            DateTime ET = DateTime.Parse(TB_ET.Text);
+            DateTime ST = DateTime.ParseExact(TB_ST.Text, "dd/MM/yyyy", null);
+            DateTime ET = DateTime.ParseExact(TB_ET.Text, "dd/MM/yyyy", null);
             int kq = BUS_XuLiDangKi.XuliDKi(StaffId, ST, ET);
             if (kq == 0)
             {

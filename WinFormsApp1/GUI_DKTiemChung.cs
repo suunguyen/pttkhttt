@@ -29,7 +29,7 @@ namespace GUI_NHOM7_DOANCK
             }    
             else
             {
-                MessageBox.Show("Đăng Kí Thành Công1");
+                MessageBox.Show("Đăng Kí Thành Công!");
             }    
         }
 

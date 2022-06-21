@@ -35,6 +35,7 @@ namespace GUI_NHOM7_DOANCK
             TB_MaKH.Text = DTGV_DSDM.Rows[i].Cells[1].Value.ToString();
             TB_TongTien.Text = DTGV_DSDM.Rows[i].Cells[2].Value.ToString();
             TB_Ngay.Text = DTGV_DSDM.Rows[i].Cells[3].Value.ToString();
+            TB_TrangThai.Text = DTGV_DSDM.Rows[i].Cells[4].Value.ToString();
             int BillID = Int32.Parse(TB_MaDon.Text);
             table = BUS_NV_DatMuaVX.XemCTHD_NV(BillID);
             DTGV_CTD.DataSource = table;

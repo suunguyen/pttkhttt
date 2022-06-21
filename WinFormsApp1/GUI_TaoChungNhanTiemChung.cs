@@ -15,7 +15,15 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_taoChungNhan_Click(object sender, EventArgs e)
         {
-            BUS_TaoChungNhanTiemChung.TaoChungNhanTiemChung(tb_customerID.Text, tb_vaccineID.Text, tb_numberOfInjection.Text);
+            int kq = BUS_TaoChungNhanTiemChung.TaoChungNhanTiemChung(tb_customerID.Text, tb_vaccineID.Text, tb_numberOfInjection.Text);
+            if (kq == 1)
+            {
+                MessageBox.Show("Tạo chứng nhận tiêm chủng thành công!");
+            }
+            else
+            {
+                MessageBox.Show("Tạo chứng nhận tiêm chủng thất bại!");
+            }
         }
 
         private void button_Dong_Click(object sender, EventArgs e)
@@ -35,7 +43,7 @@ namespace GUI_NHOM7_DOANCK
             tb_cmnd.Text = customerInfo[DB_TaoChungNhanTiemChung.FIELD_CUSTOMER_IDENTIFICATION_NUMBER];
             tb_sdt.Text = customerInfo[DB_TaoChungNhanTiemChung.FIELD_CUSTOMER_PHONE_NUMBER];
 
-            tb_vaccineID.Text = vaccineInfo[DB_TaoChungNhanTiemChung.FIELD_VACCINE_ID];
+            tb_maVacXin.Text = vaccineInfo[DB_TaoChungNhanTiemChung.FIELD_VACCINE_ID];
             tb_tenVacXin.Text = vaccineInfo[DB_TaoChungNhanTiemChung.FIELD_VACCINE_NAME];
         }
     }

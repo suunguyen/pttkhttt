@@ -145,24 +145,26 @@
             // 
             // tb_paymentId
             // 
-            this.tb_paymentId.Location = new System.Drawing.Point(191, 92);
+            this.tb_paymentId.Location = new System.Drawing.Point(191, 22);
             this.tb_paymentId.Name = "tb_paymentId";
             this.tb_paymentId.Size = new System.Drawing.Size(200, 23);
             this.tb_paymentId.TabIndex = 13;
+            this.tb_paymentId.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(27, 90);
+            this.label2.Location = new System.Drawing.Point(27, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 21);
             this.label2.TabIndex = 12;
             this.label2.Text = "Mã thanh toán";
+            this.label2.Visible = false;
             // 
             // tb_paid
             // 
-            this.tb_paid.Location = new System.Drawing.Point(191, 171);
+            this.tb_paid.Location = new System.Drawing.Point(191, 151);
             this.tb_paid.Name = "tb_paid";
             this.tb_paid.Size = new System.Drawing.Size(200, 23);
             this.tb_paid.TabIndex = 11;
@@ -171,7 +173,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(27, 169);
+            this.label3.Location = new System.Drawing.Point(27, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 21);
             this.label3.TabIndex = 10;
@@ -179,7 +181,7 @@
             // 
             // picker_dateofpayment
             // 
-            this.picker_dateofpayment.Location = new System.Drawing.Point(191, 210);
+            this.picker_dateofpayment.Location = new System.Drawing.Point(191, 199);
             this.picker_dateofpayment.Name = "picker_dateofpayment";
             this.picker_dateofpayment.Size = new System.Drawing.Size(200, 23);
             this.picker_dateofpayment.TabIndex = 9;
@@ -188,7 +190,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(27, 210);
+            this.label4.Location = new System.Drawing.Point(27, 201);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 21);
             this.label4.TabIndex = 8;
@@ -196,7 +198,7 @@
             // 
             // tb_total
             // 
-            this.tb_total.Location = new System.Drawing.Point(191, 133);
+            this.tb_total.Location = new System.Drawing.Point(191, 100);
             this.tb_total.Name = "tb_total";
             this.tb_total.Size = new System.Drawing.Size(200, 23);
             this.tb_total.TabIndex = 7;
@@ -212,7 +214,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(27, 131);
+            this.label8.Location = new System.Drawing.Point(27, 102);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(75, 21);
             this.label8.TabIndex = 5;

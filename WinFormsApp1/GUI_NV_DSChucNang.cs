@@ -62,7 +62,8 @@ namespace GUI_NHOM7_DOANCK
 
         private void button_TaoChungNhan_Click(object sender, EventArgs e)
         {
-            //phần của người làm tạo chứng nhận
+            GUI_TaoChungNhanTiemChung newform = new GUI_TaoChungNhanTiemChung();
+            newform.Show();
         }
 
         private void BT_DuyetDMVX_Click(object sender, EventArgs e)
