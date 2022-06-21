@@ -27,7 +27,7 @@ namespace GUI_NHOM7_DOANCK
             try
             {
                 int customerId = Int32.Parse(tb_customerId.Text);
-                int paymentId = Int32.Parse(tb_paymentId.Text);
+                int paymentId = 0;
                 int total = Int32.Parse(tb_total.Text);
                 int paid = Int32.Parse(tb_paid.Text);
                 string dateofpayment = picker_dateofpayment.Value.ToString("yyyy-MM-dd");

@@ -87,6 +87,7 @@
             // 
             this.tb_left.Location = new System.Drawing.Point(158, 101);
             this.tb_left.Name = "tb_left";
+            this.tb_left.ReadOnly = true;
             this.tb_left.Size = new System.Drawing.Size(200, 23);
             this.tb_left.TabIndex = 9;
             // 
@@ -104,6 +105,7 @@
             // 
             this.tb_paid.Location = new System.Drawing.Point(158, 65);
             this.tb_paid.Name = "tb_paid";
+            this.tb_paid.ReadOnly = true;
             this.tb_paid.Size = new System.Drawing.Size(200, 23);
             this.tb_paid.TabIndex = 7;
             // 
@@ -111,6 +113,7 @@
             // 
             this.tb_customerId.Location = new System.Drawing.Point(158, 33);
             this.tb_customerId.Name = "tb_customerId";
+            this.tb_customerId.ReadOnly = true;
             this.tb_customerId.Size = new System.Drawing.Size(200, 23);
             this.tb_customerId.TabIndex = 6;
             // 
@@ -151,6 +154,7 @@
             // 
             this.tb_totaltwonext.Location = new System.Drawing.Point(158, 65);
             this.tb_totaltwonext.Name = "tb_totaltwonext";
+            this.tb_totaltwonext.ReadOnly = true;
             this.tb_totaltwonext.Size = new System.Drawing.Size(200, 23);
             this.tb_totaltwonext.TabIndex = 7;
             // 
@@ -158,6 +162,7 @@
             // 
             this.tb_twonextdate.Location = new System.Drawing.Point(158, 33);
             this.tb_twonextdate.Name = "tb_twonextdate";
+            this.tb_twonextdate.ReadOnly = true;
             this.tb_twonextdate.Size = new System.Drawing.Size(200, 23);
             this.tb_twonextdate.TabIndex = 6;
             // 
@@ -198,6 +203,7 @@
             // 
             this.tb_totalthreenext.Location = new System.Drawing.Point(158, 65);
             this.tb_totalthreenext.Name = "tb_totalthreenext";
+            this.tb_totalthreenext.ReadOnly = true;
             this.tb_totalthreenext.Size = new System.Drawing.Size(200, 23);
             this.tb_totalthreenext.TabIndex = 7;
             // 
@@ -205,6 +211,7 @@
             // 
             this.tb_threenextdate.Location = new System.Drawing.Point(158, 33);
             this.tb_threenextdate.Name = "tb_threenextdate";
+            this.tb_threenextdate.ReadOnly = true;
             this.tb_threenextdate.Size = new System.Drawing.Size(200, 23);
             this.tb_threenextdate.TabIndex = 6;
             // 
@@ -245,6 +252,7 @@
             // 
             this.tb_totalnext.Location = new System.Drawing.Point(158, 65);
             this.tb_totalnext.Name = "tb_totalnext";
+            this.tb_totalnext.ReadOnly = true;
             this.tb_totalnext.Size = new System.Drawing.Size(200, 23);
             this.tb_totalnext.TabIndex = 7;
             // 
@@ -252,6 +260,7 @@
             // 
             this.tb_nextdate.Location = new System.Drawing.Point(158, 33);
             this.tb_nextdate.Name = "tb_nextdate";
+            this.tb_nextdate.ReadOnly = true;
             this.tb_nextdate.Size = new System.Drawing.Size(200, 23);
             this.tb_nextdate.TabIndex = 6;
             // 
