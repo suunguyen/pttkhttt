@@ -13,9 +13,10 @@ namespace DB_NHOM7_DOANCK
         public static int InsertBill(string CusID)
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
-            connection = new SqlConnection(str);
+            connection = new SqlConnection(connect_string);
             connection.Open();
             SqlCommand cmd = new SqlCommand("insert into Bills(CustomerId, TotalBillPrice, OrderDate, Status) values ((SELECT c.Id from Customers c where c.Username = @CusID),0,CURRENT_TIMESTAMP,N'Chưa hoàn thành')", connection);
             cmd.Parameters.AddWithValue("@CusID", CusID);
@@ -26,7 +27,8 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadDSVX()
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
@@ -41,9 +43,10 @@ namespace DB_NHOM7_DOANCK
         public static int InsertBillDetail(string CusID, int VaccineID, int Quantity)
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
-            connection = new SqlConnection(str);
+            connection = new SqlConnection(connect_string);
             connection.Open();
             SqlCommand cmd = new SqlCommand("insert into BillDetails(BillId, VaccineId, Quantity, TotalVaccinePrice) values ((SELECT MAX(Bills.Id) FROM Bills,Customers WHERE Customers.Username = @CusID),@VaccineID,@Quantity,(SELECT Vaccines.Price*@Quantity FROM Vaccines WHERE Vaccines.Id=@VaccineID))", connection);
             cmd.Parameters.AddWithValue("@CusID", CusID);
@@ -56,9 +59,10 @@ namespace DB_NHOM7_DOANCK
         public static int UpdateBill(string CusID)
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
-            connection = new SqlConnection(str);
+            connection = new SqlConnection(connect_string);
             connection.Open();
             SqlCommand cmd = new SqlCommand("UPDATE Bills SET TotalBillPrice = (SELECT SUM(BillDetails.TotalVaccinePrice) FROM BillDetails WHERE BillDetails.BillId=(SELECT MAX(Bills.Id) FROM Bills, Customers WHERE Customers.Username=@CusID)), Status = N'Chờ duyệt' WHERE Id = (SELECT MAX(Bills.Id) FROM Bills, Customers WHERE Customers.Username=@CusID)", connection);
             cmd.Parameters.AddWithValue("@CusID", CusID);
@@ -69,7 +73,8 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadBillDetail(string CusID)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
@@ -85,7 +90,8 @@ namespace DB_NHOM7_DOANCK
         public static DataTable LoadTotalBill(string CusID)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql

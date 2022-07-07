@@ -10,10 +10,11 @@ namespace DB
         public static DataTable LoadLichLamViec(int StaffId)
         {
             SqlConnection connection;
-            String str = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_NHOM7_DOANCK.DB_ConnectionString cstr = new DB_NHOM7_DOANCK.DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
-            connection = new SqlConnection(str);
+            connection = new SqlConnection(connect_string);
             connection.Open();
             SqlCommand cmd = new SqlCommand("Select StaffId, StartTime, EndTime from Schedules where StaffId= @StaffId", connection);    //cau truy van
             cmd.Parameters.AddWithValue("@StaffId", StaffId);

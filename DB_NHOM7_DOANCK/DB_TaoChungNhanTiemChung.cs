@@ -18,7 +18,8 @@ namespace DB_NHOM7_DOANCK
         public static int TaoChungNhanTiemChung(int _customerID, int _vaccineID, int _numberOfInjection)
         {
             int rowsInserted = 0;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open(); 
@@ -37,7 +38,8 @@ namespace DB_NHOM7_DOANCK
         public static Dictionary<string, string> LoadThongTinKhachHang(string _customerID)
         {
             var info = new Dictionary<string, string>();
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open();
@@ -63,7 +65,8 @@ namespace DB_NHOM7_DOANCK
         public static Dictionary<string, string> LoadThongTinVaccine(string _vaccineID)
         {
             var info = new Dictionary<string, string>();
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
                 connection.Open();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI_NHOM7_DOANCK
 {
-    public partial class GUI_DangNhap : Form
+    public partial class GUI_DangNhap_NV : Form
     {
-        public GUI_DangNhap()
+        public GUI_DangNhap_NV()
         {
             InitializeComponent();
         }
@@ -21,14 +21,14 @@ namespace GUI_NHOM7_DOANCK
         {
             try
             {
-                var kq = BUS_NHOM7_DOANCK.BUS_DangNhap_KH.DangNhapKH(tb_username.Text, tb_password.Text);
+                var kq = BUS_NHOM7_DOANCK.BUS_DangNhap_NV.DangNhapNV(tb_username.Text, tb_password.Text);
                 if (kq == 0)
                 {
                     MessageBox.Show("Tài khoản hoặc mật khẩu chưa chính xác!");
                     return;
                 }
                 MessageBox.Show("Đăng nhập thành công!");
-                GUI_KH_DSChucNang form = new GUI_KH_DSChucNang();
+                GUI_NV_DSChucNang form = new GUI_NV_DSChucNang();
                 form.setUser(tb_username.Text);
                 form.Show();
             }
@@ -40,13 +40,8 @@ namespace GUI_NHOM7_DOANCK
 
         private void label5_Click(object sender, EventArgs e)
         {
-            GUI_DangKy form = new GUI_DangKy();
+            GUI_DangKy_NV form = new GUI_DangKy_NV();
             form.Show();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

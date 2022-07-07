@@ -12,7 +12,13 @@ namespace GUI_NHOM7_DOANCK
 {
     public partial class GUI_NV_DSChucNang : Form
     {
-        public string Staff; //t tạo cái biến này ở đây để khi m đăng nhập, m cho cái tài khoản lưu vào biên này nhe, để sau này dùng nó đi truy vấn.
+        public string Staff;
+
+        public void setUser(string user)
+        {
+            Staff = user;
+        }
+
         public GUI_NV_DSChucNang()
         {
             InitializeComponent();
@@ -70,6 +76,11 @@ namespace GUI_NHOM7_DOANCK
         {
             GUI_NV_DSDMVX newform = new GUI_NV_DSDMVX();
             newform.Show();
+        }
+
+        private void GUI_NV_DSChucNang_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

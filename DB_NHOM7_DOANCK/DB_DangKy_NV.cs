@@ -1,8 +1,13 @@
-﻿using System.Data.SqlClient;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace DB_NHOM7_DOANCK
 {
-    public class DB_DangKy
+    public class DB_DangKy_NV
     {
         public static int DangKy(string email, string username, string password)
         {
@@ -11,8 +16,8 @@ namespace DB_NHOM7_DOANCK
             string connect_string = cstr.getConnectionString();
             using (SqlConnection connection = new SqlConnection(connect_string))
             {
-                connection.Open(); 
-                var sql = $"INSERT INTO Customers (Email, Username, Password) " +
+                connection.Open();
+                var sql = $"INSERT INTO Staffs (Email, Username, Password) " +
                             $"VALUES (@email, @username, @password)";
                 var cmd = new SqlCommand(sql, connection);
                 cmd.Parameters.AddWithValue("@email", email);

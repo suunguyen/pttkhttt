@@ -12,7 +12,8 @@ namespace DB_NHOM7_DOANCK
         public static int GhiNhanTTThanhToan(int paymentId, int customerId, string dateofpayment, int total, int paid, int leftAmmount)
         {
             SqlConnection connecttion;
-            string connect_string = @"Data Source=DESKTOP-H0S6L5T\THANH;Initial Catalog=Vaccination;Integrated Security=True";
+            DB_ConnectionString cstr = new DB_ConnectionString();
+            string connect_string = cstr.getConnectionString();
             SqlDataAdapter adapter = new SqlDataAdapter();
             connecttion = new SqlConnection(connect_string);    //mo connection toi sql
             connecttion.Open();

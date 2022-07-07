@@ -98,6 +98,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.label_welcome);
             this.Name = "GUI_KH_DSChucNang";
             this.Text = "GUI_KH_DSChucNang";
+            this.Load += new System.EventHandler(this.GUI_KH_DSChucNang_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
