@@ -1,6 +1,7 @@
-﻿namespace GUI_NHOM7_DOANCK
+﻿
+namespace GUI_NHOM7_DOANCK
 {
-    partial class GUI_DangNhap_NV
+    partial class GUI_DangNhap_BS
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +49,7 @@
             this.groupBox1.Location = new System.Drawing.Point(187, 144);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(427, 221);
-            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin đăng nhập";
             // 
@@ -104,18 +105,18 @@
             this.label1.Location = new System.Drawing.Point(243, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(349, 32);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 4;
             this.label1.Text = "ĐĂNG NHẬP VÀO HỆ THỐNG";
             // 
-            // GUI_DangNhap_NV
+            // GUI_DangNhap_BS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "GUI_DangNhap_NV";
-            this.Text = "DangNhap_NV";
+            this.Name = "GUI_DangNhap_BS";
+            this.Text = "GUI_DangNhap_BS";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

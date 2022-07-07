@@ -28,5 +28,17 @@ namespace GUI_NHOM7_DOANCK
             GUI_DangNhap_NV form = new GUI_DangNhap_NV();
             form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            GUI_DangNhap_BS form = new GUI_DangNhap_BS();
+            form.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            GUI_DangNhap_QL form = new GUI_DangNhap_QL();
+            form.Show();
+        }
     }
 }

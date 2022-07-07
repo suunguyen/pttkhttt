@@ -35,10 +35,8 @@ namespace GUI_NHOM7_DOANCK
             this.button__DS_ChungNhan = new System.Windows.Forms.Button();
             this.button_DangKiLichRanh = new System.Windows.Forms.Button();
             this.button_TaoLuuHSBA = new System.Windows.Forms.Button();
-            this.button_ThongKePhieuDatMua = new System.Windows.Forms.Button();
             this.button_PhanCong = new System.Windows.Forms.Button();
             this.button_TaoChungNhan = new System.Windows.Forms.Button();
-            this.BT_DuyetDMVX = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_welcome
@@ -83,7 +81,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // button_DangKiLichRanh
             // 
-            this.button_DangKiLichRanh.Location = new System.Drawing.Point(288, 197);
+            this.button_DangKiLichRanh.Location = new System.Drawing.Point(51, 289);
             this.button_DangKiLichRanh.Name = "button_DangKiLichRanh";
             this.button_DangKiLichRanh.Size = new System.Drawing.Size(152, 52);
             this.button_DangKiLichRanh.TabIndex = 4;
@@ -93,23 +91,13 @@ namespace GUI_NHOM7_DOANCK
             // 
             // button_TaoLuuHSBA
             // 
-            this.button_TaoLuuHSBA.Location = new System.Drawing.Point(51, 289);
+            this.button_TaoLuuHSBA.Location = new System.Drawing.Point(288, 197);
             this.button_TaoLuuHSBA.Name = "button_TaoLuuHSBA";
             this.button_TaoLuuHSBA.Size = new System.Drawing.Size(152, 52);
             this.button_TaoLuuHSBA.TabIndex = 5;
             this.button_TaoLuuHSBA.Text = "Tạo Lưu Hồ Sơ Bệnh Án";
             this.button_TaoLuuHSBA.UseVisualStyleBackColor = true;
             this.button_TaoLuuHSBA.Click += new System.EventHandler(this.button_TaoLuuHSBA_Click);
-            // 
-            // button_ThongKePhieuDatMua
-            // 
-            this.button_ThongKePhieuDatMua.Location = new System.Drawing.Point(288, 289);
-            this.button_ThongKePhieuDatMua.Name = "button_ThongKePhieuDatMua";
-            this.button_ThongKePhieuDatMua.Size = new System.Drawing.Size(152, 52);
-            this.button_ThongKePhieuDatMua.TabIndex = 6;
-            this.button_ThongKePhieuDatMua.Text = "Thống Kê Phiếu Đặt Mua";
-            this.button_ThongKePhieuDatMua.UseVisualStyleBackColor = true;
-            this.button_ThongKePhieuDatMua.Click += new System.EventHandler(this.button_ThongKePhieuDatMua_Click);
             // 
             // button_PhanCong
             // 
@@ -123,7 +111,7 @@ namespace GUI_NHOM7_DOANCK
             // 
             // button_TaoChungNhan
             // 
-            this.button_TaoChungNhan.Location = new System.Drawing.Point(288, 384);
+            this.button_TaoChungNhan.Location = new System.Drawing.Point(288, 289);
             this.button_TaoChungNhan.Name = "button_TaoChungNhan";
             this.button_TaoChungNhan.Size = new System.Drawing.Size(152, 52);
             this.button_TaoChungNhan.TabIndex = 8;
@@ -131,25 +119,13 @@ namespace GUI_NHOM7_DOANCK
             this.button_TaoChungNhan.UseVisualStyleBackColor = true;
             this.button_TaoChungNhan.Click += new System.EventHandler(this.button_TaoChungNhan_Click);
             // 
-            // BT_DuyetDMVX
-            // 
-            this.BT_DuyetDMVX.Location = new System.Drawing.Point(51, 479);
-            this.BT_DuyetDMVX.Name = "BT_DuyetDMVX";
-            this.BT_DuyetDMVX.Size = new System.Drawing.Size(152, 52);
-            this.BT_DuyetDMVX.TabIndex = 9;
-            this.BT_DuyetDMVX.Text = "Duyệt Đơn Đặt Mua Vắc Xin";
-            this.BT_DuyetDMVX.UseVisualStyleBackColor = true;
-            this.BT_DuyetDMVX.Click += new System.EventHandler(this.BT_DuyetDMVX_Click);
-            // 
             // GUI_NV_DSChucNang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 545);
-            this.Controls.Add(this.BT_DuyetDMVX);
+            this.ClientSize = new System.Drawing.Size(498, 487);
             this.Controls.Add(this.button_TaoChungNhan);
             this.Controls.Add(this.button_PhanCong);
-            this.Controls.Add(this.button_ThongKePhieuDatMua);
             this.Controls.Add(this.button_TaoLuuHSBA);
             this.Controls.Add(this.button_DangKiLichRanh);
             this.Controls.Add(this.button__DS_ChungNhan);
@@ -157,7 +133,7 @@ namespace GUI_NHOM7_DOANCK
             this.Controls.Add(this.button_DS_DKTC);
             this.Controls.Add(this.label_welcome);
             this.Name = "GUI_NV_DSChucNang";
-            this.Text = "GUI_KH_DSChucNang";
+            this.Text = "GUI_NV_DSChucNang";
             this.Load += new System.EventHandler(this.GUI_NV_DSChucNang_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,9 +148,7 @@ namespace GUI_NHOM7_DOANCK
         private System.Windows.Forms.Button button__DS_ChungNhan;
         private System.Windows.Forms.Button button_DangKiLichRanh;
         private System.Windows.Forms.Button button_TaoLuuHSBA;
-        private System.Windows.Forms.Button button_ThongKePhieuDatMua;
         private System.Windows.Forms.Button button_PhanCong;
         private System.Windows.Forms.Button button_TaoChungNhan;
-        private System.Windows.Forms.Button BT_DuyetDMVX;
     }
 }
